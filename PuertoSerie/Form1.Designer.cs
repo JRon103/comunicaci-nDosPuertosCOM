@@ -44,114 +44,125 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(14, 12);
+            label1.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.FromArgb(64, 156, 255);
+            label1.Location = new Point(12, 9);
             label1.Name = "label1";
-            label1.Size = new Size(89, 20);
+            label1.Size = new Size(83, 17);
             label1.TabIndex = 0;
             label1.Text = "Puerto Serie";
             // 
             // cmbPuertos
             // 
+            cmbPuertos.BackColor = Color.FromArgb(235, 235, 240);
+            cmbPuertos.Font = new Font("Cascadia Code", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             cmbPuertos.FormattingEnabled = true;
-            cmbPuertos.Location = new Point(14, 36);
-            cmbPuertos.Margin = new Padding(3, 4, 3, 4);
+            cmbPuertos.Location = new Point(12, 32);
             cmbPuertos.Name = "cmbPuertos";
-            cmbPuertos.Size = new Size(114, 28);
+            cmbPuertos.Size = new Size(120, 25);
             cmbPuertos.TabIndex = 1;
             // 
             // btnConectar
             // 
-            btnConectar.Location = new Point(516, 99);
-            btnConectar.Margin = new Padding(3, 4, 3, 4);
+            btnConectar.BackColor = Color.FromArgb(235, 235, 240);
+            btnConectar.Location = new Point(276, 31);
             btnConectar.Name = "btnConectar";
-            btnConectar.Size = new Size(94, 31);
+            btnConectar.Size = new Size(82, 24);
             btnConectar.TabIndex = 2;
             btnConectar.Text = "Conectar";
-            btnConectar.UseVisualStyleBackColor = true;
+            btnConectar.UseVisualStyleBackColor = false;
             btnConectar.Click += btnConectar_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(14, 99);
+            label2.Location = new Point(12, 74);
             label2.Name = "label2";
-            label2.Size = new Size(0, 20);
+            label2.Size = new Size(0, 15);
             label2.TabIndex = 3;
             // 
             // txtEnviar
             // 
-            txtEnviar.Location = new Point(14, 275);
-            txtEnviar.Margin = new Padding(3, 4, 3, 4);
+            txtEnviar.BackColor = Color.FromArgb(235, 235, 240);
+            txtEnviar.Font = new Font("Cascadia Code", 9.75F);
+            txtEnviar.Location = new Point(12, 74);
             txtEnviar.Name = "txtEnviar";
-            txtEnviar.Size = new Size(395, 27);
+            txtEnviar.Size = new Size(240, 23);
             txtEnviar.TabIndex = 5;
             // 
             // btnEnviar
             // 
-            btnEnviar.Location = new Point(426, 273);
-            btnEnviar.Margin = new Padding(3, 4, 3, 4);
+            btnEnviar.BackColor = Color.FromArgb(235, 235, 240);
+            btnEnviar.Location = new Point(276, 74);
             btnEnviar.Name = "btnEnviar";
-            btnEnviar.Size = new Size(86, 31);
+            btnEnviar.Size = new Size(75, 23);
             btnEnviar.TabIndex = 6;
             btnEnviar.Text = "Enviar";
-            btnEnviar.UseVisualStyleBackColor = true;
+            btnEnviar.UseVisualStyleBackColor = false;
             btnEnviar.Click += btnEnviar_Click;
             // 
             // btnActualizar
             // 
-            btnActualizar.Location = new Point(516, 138);
-            btnActualizar.Margin = new Padding(3, 4, 3, 4);
+            btnActualizar.BackColor = Color.FromArgb(235, 235, 240);
+            btnActualizar.Location = new Point(364, 31);
             btnActualizar.Name = "btnActualizar";
-            btnActualizar.Size = new Size(94, 31);
+            btnActualizar.Size = new Size(82, 23);
             btnActualizar.TabIndex = 7;
             btnActualizar.Text = "Actualizar";
-            btnActualizar.UseVisualStyleBackColor = true;
+            btnActualizar.UseVisualStyleBackColor = false;
             btnActualizar.Click += btnActualizar_Click;
             // 
             // button1
             // 
-            button1.Location = new Point(516, 176);
+            button1.BackColor = Color.FromArgb(235, 235, 240);
+            button1.Location = new Point(452, 32);
+            button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(94, 29);
+            button1.Size = new Size(82, 22);
             button1.TabIndex = 8;
             button1.Text = "Cerrar conexión ";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // recibirBluetooth
             // 
+            recibirBluetooth.BackColor = Color.FromArgb(235, 235, 240);
             recibirBluetooth.BorderStyle = BorderStyle.None;
-            recibirBluetooth.Location = new Point(12, 74);
-            recibirBluetooth.Margin = new Padding(3, 4, 3, 4);
+            recibirBluetooth.Font = new Font("Cascadia Code", 9.75F);
+            recibirBluetooth.Location = new Point(12, 113);
             recibirBluetooth.Name = "recibirBluetooth";
-            recibirBluetooth.Size = new Size(498, 176);
+            recibirBluetooth.Size = new Size(529, 172);
             recibirBluetooth.TabIndex = 9;
             recibirBluetooth.Text = "";
             // 
             // comboBoxBluetooth
             // 
+            comboBoxBluetooth.BackColor = Color.FromArgb(235, 235, 240);
+            comboBoxBluetooth.Font = new Font("Cascadia Code", 9.75F);
             comboBoxBluetooth.FormattingEnabled = true;
-            comboBoxBluetooth.Location = new Point(158, 36);
-            comboBoxBluetooth.Margin = new Padding(3, 4, 3, 4);
+            comboBoxBluetooth.Location = new Point(138, 32);
             comboBoxBluetooth.Name = "comboBoxBluetooth";
-            comboBoxBluetooth.Size = new Size(110, 28);
+            comboBoxBluetooth.Size = new Size(114, 25);
             comboBoxBluetooth.TabIndex = 10;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(158, 9);
+            label3.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.ForeColor = Color.FromArgb(64, 156, 255);
+            label3.Location = new Point(138, 9);
             label3.Name = "label3";
-            label3.Size = new Size(121, 20);
+            label3.Size = new Size(114, 17);
             label3.TabIndex = 11;
             label3.Text = "Puerto bluetooth";
             label3.Click += label3_Click;
             // 
             // frmSerie
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(619, 342);
+            BackColor = Color.FromArgb(62, 62, 64);
+            ClientSize = new Size(553, 305);
             Controls.Add(label3);
             Controls.Add(comboBoxBluetooth);
             Controls.Add(recibirBluetooth);
@@ -163,7 +174,6 @@
             Controls.Add(btnConectar);
             Controls.Add(cmbPuertos);
             Controls.Add(label1);
-            Margin = new Padding(3, 4, 3, 4);
             Name = "frmSerie";
             Text = "Puerto Serie";
             Load += frmSerie_Load;
