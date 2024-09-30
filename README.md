@@ -1,4 +1,4 @@
 Integrantes del equipo:
 - Julian Rodolfo Villa Cruz
-- Ignacio Gerardo Martinez
+- Gerardo Ignacio Martínez Marín
 - Paulina Jaqueline Castañeda Villalobos
